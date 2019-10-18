@@ -31,7 +31,33 @@
 
 # 2 基于 Set 实现 用户关注模型:
 
-    1
+```
+场景: 
+人物: A, B; 人物的属性: 我的粉丝-fans, 我的关注-follow, 互粉-mutual;
+--
+(1) A 关注 B, B 不关注 A;
+eg: A 关注 B
+    1) zadd A:follow time B;
+    2) zadd B:fans time A;
+(2) A, B 相互关注:
+    eg:
+        A 关注 B;
+            1) zadd A:follow time B;
+            2) zadd B:fans time A;
+        B 关注 A;
+            1) zadd B:follow time A;
+            2) zadd A:fans time B;
+(3) 判断结果：
+    1) 我(A)单向关注对方(B):
+        zscore A:follow B #true
+        zscore A:fans B #false
+    2) 他(B)单向关注了我(A):
+        zscore A:follow B #false
+        zscore A:fans B #true
+    3) A, B 相互关注:
+        zscore A:follow B #true
+        zscore A:fans B #true
+```
 
 
 
