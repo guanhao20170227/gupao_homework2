@@ -61,7 +61,5 @@ eg: A 关注 B
         zscore A:fans B #true
 ```
 
-3 总结Redis五大数据类型，和编码转换的条件
-
-
+# 3 总结Redis五大数据类型，和编码转换的条件
 
