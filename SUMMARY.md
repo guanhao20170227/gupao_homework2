@@ -4,4 +4,5 @@
 * [First Chapter](chapter1.md)
 * [Redis](redis.md)
   * [Redis\_1 基础知识](redis/redis1-ji-chu-zhi-shi.md)
+  * [Redis\_2 原理篇](redis/redis2-yuan-li-pian.md)
 
