@@ -60,9 +60,7 @@ Redis 事务主要用于不间断的执行多条命令, 即是存在引发错误
 
 参考博客：[https://blog.csdn.net/qq\_16605855/article/details/83305942](https://blog.csdn.net/qq_16605855/article/details/83305942)
 
-
-
-4 
+## 4 基于一个数据结构，如何设计一个传统的LRU算法？
 
 
 
