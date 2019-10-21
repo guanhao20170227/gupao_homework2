@@ -12,6 +12,11 @@
 ```
 [1] 需要引入一个监听器： MyListener extends JedisPubSub;
 [2] 发布者:
+        Jedis jedis = new Jedis("192.168.119.141", 6379);
+        jedis.publish("qingshan-123", "666");
+        jedis.publish("qingshan-abc", "pengyuyan");
+        jedis.publish("news-weather", "rain");
+        jedis.publish("news-sport", "yaoming");
 [3] 订阅者：
         Jedis jedis = new Jedis("192.168.119.141", 6379);
         final MyListener listener = new MyListener();
