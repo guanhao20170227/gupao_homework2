@@ -9,5 +9,9 @@
 
 ## 1 Jedis 如何取消对频道的订阅？
 
-    1
+```
+[1] 需要引入一个监听器： MyListener extends JedisPubSub;
+```
+
+
 
