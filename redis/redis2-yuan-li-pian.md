@@ -23,6 +23,10 @@
         // 使用模式匹配的方式设置频道
         // 会阻塞
         jedis.psubscribe(listener, new String[]{"qingshan-*", "news-*"});
+        
+---
+源码位置: G:\BaiduNetdiskDownload\Java\咕泡学习\5_分布式与微服务\02.redis\
+                        redis_2 原理\3_课堂源码\gupao-jedis\src\main\java\pubsub>
 ```
 
 
