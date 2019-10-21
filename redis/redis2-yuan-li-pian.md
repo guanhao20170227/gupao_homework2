@@ -50,8 +50,19 @@ Redis 事务主要用于不间断的执行多条命令, 即是存在引发错误
 ## 3 Redis不是只有一个线程吗？它已经卡死了，怎么接受spript kill指令的？
 
 ```
-
+使用 script kill, 是在 调用 Lua 脚本超时的时候使用的;
+(1) script 还可以使用是由于在 redis.conf 配置文件中配置了 lua-time-limit 5000; 5 秒;
+      5 秒内是不接受任何命令, 5 秒后是可以接受命令的, 但是不执行命令;
+(2) 由于 Lua 脚本的引擎功能比较强大, 他会提供各种各样的钩子函数, 它允许在内部虚拟机执行指令时运行钩子代码,
+      Redis 正是使用了这个钩子函数。
+      Redis 在发现Lua 脚本超时后, 就会在钩子函数里面去处理客服端的请求;
 ```
+
+参考博客：[https://blog.csdn.net/qq\_16605855/article/details/83305942](https://blog.csdn.net/qq_16605855/article/details/83305942)
+
+
+
+4 
 
 
 
