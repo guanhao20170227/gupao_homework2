@@ -29,7 +29,5 @@
                         redis_2 原理\3_课堂源码\gupao-jedis\src\main\java\pubsub>
 ```
 
-参考
-
-
+参考博客:  [https://www.cnblogs.com/excellencesy/p/11696580.html](https://www.cnblogs.com/excellencesy/p/11696580.html)
 
