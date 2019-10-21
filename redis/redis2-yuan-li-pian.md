@@ -40,9 +40,12 @@
     这就意味着这些程序是有问题的, 所以是需要修改程序, 这个问题是不会出现在生产的环境上的。
 -- 不能回滚:
 Redis 事务主要用于不间断的执行多条命令, 即是存在引发错误额命令. Redis 先执行命令, 命令成功后,
-    才会记录日志, 所以出现错误时无法回滚,.
-
+    才会记录日志, 所以出现错误时无法回滚.
 ```
+
+参考博客: [https://baijiahao.baidu.com/s?id=1613631210471699441픴=spider&for=pc](https://baijiahao.baidu.com/s?id=1613631210471699441&wfr=spider&for=pc)
+
+[https://www.oschina.net/question/2426118\_2303633](https://www.oschina.net/question/2426118_2303633)
 
 
 
