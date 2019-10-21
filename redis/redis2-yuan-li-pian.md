@@ -47,9 +47,7 @@ Redis 事务主要用于不间断的执行多条命令, 即是存在引发错误
 
 [https://www.oschina.net/question/2426118\_2303633](https://www.oschina.net/question/2426118_2303633)
 
-
-
-3 Redis不是只有一个线程吗？它已经卡死了，怎么接受spript kill指令的？
+## 3 Redis不是只有一个线程吗？它已经卡死了，怎么接受spript kill指令的？
 
 ```
 
