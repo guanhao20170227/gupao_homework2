@@ -31,3 +31,13 @@
 
 参考博客:  [https://www.cnblogs.com/excellencesy/p/11696580.html](https://www.cnblogs.com/excellencesy/p/11696580.html)
 
+
+
+## 2 为什么在一个事务中存在错误，Redis不回滚？
+
+```
+
+```
+
+
+
