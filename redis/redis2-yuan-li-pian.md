@@ -11,6 +11,13 @@
 
 ```
 [1] 需要引入一个监听器： MyListener extends JedisPubSub;
+[2] 发布者:
+[3] 订阅者：
+        Jedis jedis = new Jedis("192.168.119.141", 6379);
+        final MyListener listener = new MyListener();
+        // 使用模式匹配的方式设置频道
+        // 会阻塞
+        jedis.psubscribe(listener, new String[]{"qingshan-*", "news-*"});
 ```
 
 
