@@ -65,10 +65,10 @@ Redis 事务主要用于不间断的执行多条命令, 即是存在引发错误
 ```
 方法1： 基于 Redis 的 List, 加上 rpush, lpop 就可以实现 LRU 了;
 
-方法2: 
+方法2: Cache 链表 + hashMap 实现:
 ```
 
-
+方法2参考博客: [https://www.cnblogs.com/lzrabbit/p/3734850.html\#f2](https://www.cnblogs.com/lzrabbit/p/3734850.html#f2)
 
 
 
