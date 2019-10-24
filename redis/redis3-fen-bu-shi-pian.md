@@ -67,6 +67,9 @@
 (1) Sharded Jedis 是通过 TreeMap 来实现 哈希环的;
 (2) 是使用一致性哈希来实现 数据分片的;
 ---
+根据提示: 
+(1) SharedJedis 分片相关的代码基本都在 redis.clients.util.Sharded 类
+(2) 在 redis.clients.jedis.ShardedJedis 类中进行 redis 的读取操作
 
 ```
 
