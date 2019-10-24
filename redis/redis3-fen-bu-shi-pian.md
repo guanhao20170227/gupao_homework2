@@ -72,7 +72,9 @@
 (2) 在 redis.clients.jedis.ShardedJedis 类中进行 redis 的读取操作;
 ```
 
+跟 
 
+![](/assets/import_20191024162601.png)
 
 参考博客: [https://www.jianshu.com/p/d240af4a671c](https://www.jianshu.com/p/d240af4a671c)
 
