@@ -60,11 +60,11 @@
 (2) 通过 ./redis-cli --cluster add-node new-host:new-port exist_host:exist_port 来添加新的节点;
 ```
 
+## 3 了解 ShardedJedis 是如何实现分片的?
 
-
-3 了解 ShardedJedis 是如何实现分片的?
-
-    1
+```
+1
+```
 
 
 
