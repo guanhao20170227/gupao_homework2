@@ -65,7 +65,9 @@
 ```
 根据网上的参考:
 (1) Sharded Jedis 是通过 TreeMap 来实现 哈希环的;
-(2) 是使用一致性哈希来实现 数据分片的
+(2) 是使用一致性哈希来实现 数据分片的;
+---
+
 ```
 
 参考博客: [https://www.jianshu.com/p/d240af4a671c](https://www.jianshu.com/p/d240af4a671c)
