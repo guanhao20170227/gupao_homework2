@@ -6,5 +6,7 @@
 3 了解 ShardedJedis 是如何实现数据分片的;
 ```
 
+## 1 搭建Sentinel 集群
+
 
 
