@@ -19,8 +19,8 @@
         (2) sentinel.conf 配置文件:
 ---
 测试了: 可以实现 failover 功能;
+---
 注意点: 需要先把 Redis 启动起来在启动 Redis-Sentinel;
-
 ```
 
 
