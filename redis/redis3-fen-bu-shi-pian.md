@@ -23,5 +23,7 @@
 注意点: 需要先把 Redis 启动起来在启动 Redis-Sentinel;
 ```
 
+## 2 搭建 Redis Cluster 集群
 
+    1
 
