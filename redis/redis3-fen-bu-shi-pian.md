@@ -28,7 +28,7 @@
 ```
 1 在 192.168.119.131 这一台机器上面, 使用不同的端口号来实现:
     端口分别是: 7291, 7292, 7293, 7294, 7295, 7296;
-    
+
 -- 
 测试实现了:
 127.0.0.1:7291> dbsize
@@ -59,6 +59,12 @@
 (1) master 宕机的时候, slave 会被选举为 master；
 (2) 通过 ./redis-cli --cluster add-node new-host:new-port exist_host:exist_port 来添加新的节点;
 ```
+
+
+
+3 了解 ShardedJedis 是如何实现分片的?
+
+    1
 
 
 
