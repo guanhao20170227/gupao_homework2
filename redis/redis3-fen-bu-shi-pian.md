@@ -17,6 +17,9 @@
         (1) redis.conf 配置文件:
                 1) 修改 上面 3 说的配置, 保证 Redis 集群, 可以正常的启动起来;
         (2) sentinel.conf 配置文件:
+---
+测试了: 可以实现 failover 功能;
+注意点: 需要先把 Redis 启动起来在启动 Redis-Sentinel;
 
 ```
 
