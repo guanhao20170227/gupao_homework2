@@ -72,7 +72,7 @@
 (2) 在 redis.clients.jedis.ShardedJedis 类中进行 redis 的读取操作;
 ```
 
-跟 
+根据测试例子， 跟代码, 跟到 ShardedJedisPool 就有点复杂了, 看的有点晕， 后面再看.
 
 ![](/assets/import_20191024162601.png)
 
