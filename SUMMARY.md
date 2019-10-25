@@ -7,4 +7,6 @@
   * [Redis\_2 原理篇](redis/redis2-yuan-li-pian.md)
   * [Redis\_3 分布式篇](redis/redis3-fen-bu-shi-pian.md)
   * [Redis\_4 实战篇](redis/redis4-shi-zhan-pian.md)
+* [Xmind\_File](xmindfile.md)
+  * 1 Test
 
