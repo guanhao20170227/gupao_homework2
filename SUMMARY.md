@@ -8,5 +8,5 @@
   * [Redis\_3 分布式篇](redis/redis3-fen-bu-shi-pian.md)
   * [Redis\_4 实战篇](redis/redis4-shi-zhan-pian.md)
 * [Xmind\_File](xmindfile.md)
-  * 1 Test
+  * [1 Test](xmindfile/1-test.md)
 
