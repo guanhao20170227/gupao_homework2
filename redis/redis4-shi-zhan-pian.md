@@ -20,7 +20,7 @@
 
 ## 2 绘制一张Redis知识脑图，放在git，贴地址？
 
-
+github : [https://github.com/guanhao20170227/gupao\_homework2/blob/master/xmindfile/Redis.xmind](https://github.com/guanhao20170227/gupao_homework2/blob/master/xmindfile/Redis.xmind)
 
 
 
