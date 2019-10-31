@@ -34,9 +34,13 @@
 
 ## 3 mysql container:
 
+\[1\] 进入容器看到的 mysql：
+
 ![](/assets/import_20191031193201.png)
 
 --
+
+\[2\] win10 看到的 mysql：
 
 ![](/assets/import_20190131193301.png)
 
