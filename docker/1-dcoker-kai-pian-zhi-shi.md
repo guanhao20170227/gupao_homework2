@@ -28,6 +28,8 @@
 
 ![](/assets/import_20191031193001.png)--
 
+\[3\] 访问的结果:
+
 ![](/assets/import_20190131193001.png)
 
 ## 3 mysql container:
