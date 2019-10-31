@@ -6,9 +6,13 @@
 
 ## 1 docker 环境的搭建：
 
+![](/assets/import_20191031192701.png)
+
 ## 2 tomcat container:
 
 ## 3 mysql container:
 
 ---
+
+
 
