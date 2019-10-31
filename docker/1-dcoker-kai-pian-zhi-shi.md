@@ -6,9 +6,13 @@
 
 ## 1 docker 环境的搭建：
 
+\[1\] virtualbox
+
 ![](/assets/import_20191031192701.png)
 
 --
+
+\[2\] xshell 登陆 centos, 安装 docker;
 
 ![](/assets/import_20191031192801.png)
 
