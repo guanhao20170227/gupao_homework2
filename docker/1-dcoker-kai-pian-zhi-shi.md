@@ -24,6 +24,12 @@
 
 ## 3 mysql container:
 
+![](/assets/import_20191031193201.png)
+
+--
+
+![](/assets/import_20190131193301.png)
+
 ---
 
 
