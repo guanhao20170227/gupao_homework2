@@ -14,6 +14,8 @@
 
 ## 2 tomcat container:
 
+![](/assets/import_20191031192901.png)
+
 ## 3 mysql container:
 
 ---
