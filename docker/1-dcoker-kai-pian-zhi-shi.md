@@ -18,9 +18,13 @@
 
 ## 2 tomcat container:
 
+\[1\] images:
+
 ![](/assets/import_20191031192901.png)
 
 --
+
+\[2\] containers:
 
 ![](/assets/import_20191031193001.png)--
 
