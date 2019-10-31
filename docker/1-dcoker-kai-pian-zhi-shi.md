@@ -4,15 +4,15 @@
 不妨搭建好了可以把你的图粘贴到这边一起看看。
 ```
 
-1 docker 环境的搭建：
+## 1 docker 环境的搭建：
+
+## 2 tomcat container:
+
+## 3 mysql container:
 
 
 
-2 tomcat container:
 
 
-
-3 mysql container:
-
-
+--
 
