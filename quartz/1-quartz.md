@@ -21,8 +21,6 @@ c参考博客: [https://www.cnblogs.com/Rozdy/p/4220186.html](https://www.cnblog
 
 具体的实现:
 
-\[1\] java project:
-
 job:
 
 ```
