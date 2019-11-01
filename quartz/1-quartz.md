@@ -42,7 +42,33 @@ public class MyJob1 implements Job {
 test:
 
 ```
-1
+public class HWTest1 {
+
+    public static void main(String[] args) throws SchedulerException {
+
+        //job
+        JobDetail jobDetail = JobBuilder.newJob(MyJob1.class)
+                .withIdentity("my-job-1", "my-group")
+                .build();
+
+        //trigger
+        Trigger trigger = TriggerBuilder.newTrigger()
+                .withIdentity("my-trigger-1", "my-group")
+                .startNow()
+                .withSchedule(SimpleScheduleBuilder.simpleSchedule()
+                    .withIntervalInSeconds(1)
+                    .repeatForever())
+                .build();
+
+
+        SchedulerFactory factory = new StdSchedulerFactory();
+        Scheduler scheduler = factory.getScheduler();
+
+        scheduler.scheduleJob(jobDetail, trigger);
+        scheduler.start();
+
+    }
+}
 ```
 
 ## 2 怎样使多个任务串行执行?
