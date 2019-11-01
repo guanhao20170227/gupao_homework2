@@ -11,5 +11,7 @@
 
 答:  在 20 秒的时候, 回执行第二个任务的, Quartz 默认是多线程的;
 
-如果
+如果想要将 Job 变成单线程 需要在 Job 实现类上加上 @DisallowConcurrentExecution 注解;
+
+
 
