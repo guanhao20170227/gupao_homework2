@@ -24,7 +24,19 @@ c参考博客: [https://www.cnblogs.com/Rozdy/p/4220186.html](https://www.cnblog
 job:
 
 ```
-1
+@DisallowConcurrentExecution
+public class MyJob1 implements Job {
+    @Override
+    public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Do Job, time: " + new Date());
+    }
+}
 ```
 
 test:
