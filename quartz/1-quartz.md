@@ -13,5 +13,5 @@
 
 如果想要将 Job 变成单线程 需要在 Job 实现类上加上 @DisallowConcurrentExecution 注解;
 
-如果 
+如果是 spring 工程, 需要给 Job Bean 添加: &lt;property name="concurrent" value="true"&gt;&lt;/property&gt;
 
