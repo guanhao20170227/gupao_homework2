@@ -73,9 +73,15 @@ public class HWTest1 {
 }
 ```
 
+\[2\] spring project:
+
+job:
+
+test:
+
+config:
+
 ## 2 怎样使多个任务串行执行?
-
-
 
 ---
 
