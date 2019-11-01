@@ -73,17 +73,7 @@ public class HWTest1 {
 }
 ```
 
-\[2\] spring project:
 
-\(1\) 也是可以在 Job 实现类上添加 @DisallowConcurrentExecution 来实现串行执行;
-
-
-
-job:
-
-test:
-
-config:
 
 ## 2 怎样使多个任务串行执行?
 
