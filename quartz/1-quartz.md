@@ -13,7 +13,7 @@
 
 如果想要将 Job 变成单线程 需要在 Job 实现类上加上 @DisallowConcurrentExecution 注解;
 
-如果是 spring 工程, 需要给 Job Bean 添加: &lt;property name="concurrent" value="true"&gt;&lt;/property&gt;\(添加property 可能会比较麻烦一点, 构造 JobDetail 的 JobDetailFactoryBean 没有concurrent 属性, MethodInvokingJobDetailFactoryBean 里面有 concurrent 属性 \)
+如果是 spring 工程, 需要给 Job Bean 添加: &lt;property name="concurrent" value="true"&gt;&lt;/property&gt;\(添加property 可能会比较麻烦一点, 构造 JobDetail 的 JobDetailFactoryBean 没有concurrent 属性, MethodInvokingJobDetailFactoryBean 里面有 concurrent 属性;所以也建议使用 @DisallowConcurrentExecution 注解 \)
 
 c参考博客: [https://www.cnblogs.com/Rozdy/p/4220186.html](https://www.cnblogs.com/Rozdy/p/4220186.html)
 
