@@ -15,3 +15,7 @@
 
 如果是 spring 工程, 需要给 Job Bean 添加: &lt;property name="concurrent" value="true"&gt;&lt;/property&gt;
 
+c参考博客: [https://www.cnblogs.com/Rozdy/p/4220186.html](https://www.cnblogs.com/Rozdy/p/4220186.html)
+
+
+
