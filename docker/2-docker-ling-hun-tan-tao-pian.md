@@ -60,6 +60,10 @@
 
 ## 4 使用 weasescope 搭建监控平台:
 
+\[1\] 在 aliyun 上创建 docker 和 container;
+
+\[2\] 使用 weaseworks/scope 来监控 aliyun 的各个 container 所占用的资源：
+
 ---
 
 
