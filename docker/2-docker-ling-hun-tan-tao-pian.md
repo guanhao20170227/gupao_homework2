@@ -42,6 +42,12 @@
 
 ## 2 使用 docker commit 创建 image 文件:
 
+\[1\] 创建 container:
+
+
+
+\[2\] 创建 image:
+
 ## 3 搭建 阿里云 的 docker image 仓库:
 
 ## 4 使用 weasescope 搭建监控平台:
