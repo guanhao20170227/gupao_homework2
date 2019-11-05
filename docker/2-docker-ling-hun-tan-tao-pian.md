@@ -19,6 +19,8 @@
 
 \(0\) 上传 jar 包到 centos 系统:
 
+    1
+
 \(1\) 拼写 Dockerfile 文件:
 
 \(2\) 构建 image 文件:
