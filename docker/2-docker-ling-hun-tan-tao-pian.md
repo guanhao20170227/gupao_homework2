@@ -30,6 +30,8 @@
 
 \(2\) 构建 image 文件:
 
+![](/assets/import_20191105205701.png)
+
 \(3\) 运行 images 文件:
 
 \(4\) 访问对应的接口: /hello-world
