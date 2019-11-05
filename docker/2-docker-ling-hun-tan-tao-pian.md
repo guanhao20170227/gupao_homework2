@@ -13,7 +13,7 @@
 
 ## 1 使用 Dockerfile 文件创建自己的 image
 
-## 
+\[1\] 想法是: 创建一个简单的 spring-boot 项目, 将这个项目打成 jar 包, 然后根据这个 jar 包, 构建自己的 image, 并在容器中跑起来.
 
 
 
