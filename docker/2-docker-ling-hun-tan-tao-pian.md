@@ -34,7 +34,11 @@
 
 \(3\) 运行 images 文件:
 
+![](/assets/import_20191105205801.png)
+
 \(4\) 访问对应的接口: /hello-world
+
+![](/assets/import_20191105205902.png)
 
 ## 2 使用 docker commit 创建 image 文件:
 
