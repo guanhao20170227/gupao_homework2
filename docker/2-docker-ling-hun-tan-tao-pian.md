@@ -11,5 +11,9 @@
 04 搭建容器搭建平台weavescope
 ```
 
+## 1 使用 Dockerfile 文件创建自己的 image
+
+## 
+
 
 
