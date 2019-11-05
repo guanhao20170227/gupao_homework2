@@ -26,6 +26,8 @@
 
 \(1\) 拼写 Dockerfile 文件:
 
+![](/assets/import_20191105205601.png)
+
 \(2\) 构建 image 文件:
 
 \(3\) 运行 images 文件:
