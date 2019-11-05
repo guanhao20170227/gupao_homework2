@@ -19,7 +19,10 @@
 
 \(0\) 上传 jar 包到 centos 系统:
 
-    1
+```
+1) 我是通过 FileZilla 软件将 jar 从 win10 上传到 VMWare 的 192.168.119.131
+2) 然后通过 scp root@192.168.119.131:/opt/tmp/*.jar ./  将 jar 包远程拷贝到本地的;
+```
 
 \(1\) 拼写 Dockerfile 文件:
 
