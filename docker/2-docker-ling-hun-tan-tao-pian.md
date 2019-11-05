@@ -50,6 +50,10 @@
 
 ![](/assets/import_20191105210802.png)
 
+\[3\] 运行测试:
+
+
+
 ## 3 搭建 阿里云 的 docker image 仓库:
 
 ## 4 使用 weasescope 搭建监控平台:
