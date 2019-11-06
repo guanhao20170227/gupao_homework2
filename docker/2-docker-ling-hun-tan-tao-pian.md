@@ -64,6 +64,8 @@
 
 \[2\] 使用 weaseworks/scope 来监控 aliyun 的各个 container 所占用的资源:
 
+![](/assets/import_20191106090801.png)
+
 ---
 
 
