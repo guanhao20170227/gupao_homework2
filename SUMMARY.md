@@ -13,6 +13,7 @@
   * [1 Dcoker 开篇知识](docker/1-dcoker-kai-pian-zhi-shi.md)
   * [2 Docker 灵魂探讨篇](docker/2-docker-ling-hun-tan-tao-pian.md)
   * [3 Docker 网络](docker/3-docker-wang-luo.md)
+  * [4 Docker 持久化及项目实战](docker/4-docker-chi-jiu-hua-ji-xiang-mu-shi-zhan.md)
 * [Quartz](quartz.md)
   * [1 Quartz](quartz/1-quartz.md)
 
