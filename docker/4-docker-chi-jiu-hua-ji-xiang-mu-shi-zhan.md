@@ -7,13 +7,13 @@
 
 ## 1 pxc 搭建 Mysql 的高可用的方案:
 
-8888 端口的监控:
+pxc 的8888 端口的监控:
 
 ![](/assets/import_20191108213601.png)
 
 ## 2 搭建 多个 spring-boot 项目的实例:
 
+\[1\] weaveworks/scope 来监控的实例：
+
 ![](/assets/import_20191109114501.png)
-
-
 
