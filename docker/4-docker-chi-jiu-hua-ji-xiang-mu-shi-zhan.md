@@ -19,5 +19,5 @@ pxc 的8888 端口的监控:
 
 将 nginx 的ip 172.22.0.11/12/13 换成 sb01/sb02/sb03 是可以的, 但是要保留 8080 的端口, 但是在 spring-boot 项目中 my-mysql 替换 aliyun\_ip:3306 中 my-mysql 后面是不要添加端口的;
 
-
+![](/assets/import_20191109115101.png)
 
