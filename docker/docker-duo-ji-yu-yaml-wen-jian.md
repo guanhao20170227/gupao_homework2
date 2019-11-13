@@ -7,6 +7,8 @@
 
 ## 1 创建 tomcat service:
 
+![](/assets/import_20191113111201.png)
+
 ## 2 使用 stack +yaml 文件创建 wordpress + mysql:
 
 使用 stack + yaml 创建的 wordpress + mysql:
