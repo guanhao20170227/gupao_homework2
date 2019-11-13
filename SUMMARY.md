@@ -14,6 +14,7 @@
   * [2 Docker 灵魂探讨篇](docker/2-docker-ling-hun-tan-tao-pian.md)
   * [3 Docker 网络](docker/3-docker-wang-luo.md)
   * [4 Docker 持久化及项目实战](docker/4-docker-chi-jiu-hua-ji-xiang-mu-shi-zhan.md)
+  * [Docker 多机与yaml文件](docker/docker-duo-ji-yu-yaml-wen-jian.md)
 * [Quartz](quartz.md)
   * [1 Quartz](quartz/1-quartz.md)
 
