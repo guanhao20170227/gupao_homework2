@@ -5,9 +5,11 @@
 02 wordpress+mysql的yaml文件形式，通过docker stack进行部署，最终在浏览器中能够访问
 ```
 
-1 创建 tomcat service:
+## 1 创建 tomcat service:
 
 
+
+2 使用 stack +yaml 文件创建 wordpress + mysql:
 
 
 
