@@ -7,9 +7,7 @@
 
 ## 1 创建 tomcat service:
 
-
-
-2 使用 stack +yaml 文件创建 wordpress + mysql:
+## 2 使用 stack +yaml 文件创建 wordpress + mysql:
 
 
 
