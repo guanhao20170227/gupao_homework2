@@ -9,7 +9,9 @@
 
 ## 2 使用 stack +yaml 文件创建 wordpress + mysql:
 
-使用 
+使用 stack + yaml 创建的 wordpress + mysql:
+
+![](/assets/import_20191113110401.png)
 
 ---
 
