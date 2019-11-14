@@ -26,7 +26,9 @@
 
 ![](/assets/import_20191114214701.png)
 
-3 简单工厂, 工厂方法, 抽象工厂 的代码实现:
+## 3 简单工厂, 工厂方法, 抽象工厂 的代码实现:
+
+github: [https://github.com/guanhao20170227/gupao\_test\_code/tree/master/java\_design/src/main/java/com/haohao/b\_factory](https://github.com/guanhao20170227/gupao_test_code/tree/master/java_design/src/main/java/com/haohao/b_factory)
 
 ---
 
