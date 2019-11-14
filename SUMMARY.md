@@ -17,4 +17,6 @@
   * [5 Docker 多机与yaml文件](docker/docker-duo-ji-yu-yaml-wen-jian.md)
 * [Quartz](quartz.md)
   * [1 Quartz](quartz/1-quartz.md)
+* [Design Patterns](design-patterns.md)
+  * [1 工厂模式](design-patterns/1-gong-chang-mo-shi.md)
 
