@@ -46,7 +46,11 @@
 (2) 序列化破坏:
     --
         解决序列化的破坏：
-            就是在序列化的单例模式中, 重写 readResolve
+            就是在序列化的单例模式中, 重写 readResolve() 方法就好了:
+                eg:
+                public  Object readResolve() {
+                    return INSTANCE;
+                }
 ```
 
 ---
