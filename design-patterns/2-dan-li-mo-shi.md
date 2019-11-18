@@ -31,7 +31,20 @@
 
 ## 2 常见的破话单例的方式:
 
-    1
+```
+(1) 反射破坏：
+    --
+    解决反射破坏:
+        可以在单例的构造方法中添加判断:
+            eg:
+            private LazySingletonDemo1() {
+                if (lazy != null) {
+                    throw new RuntimeException("不能创建多个实例");
+                }
+            }
+
+(2) 序列化破话:
+```
 
 ---
 
