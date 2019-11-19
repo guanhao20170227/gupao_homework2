@@ -30,6 +30,11 @@ public class DeepCloneSingleton implements Cloneable {
     public static DeepCloneSingleton getInstance() {
         return INSTANCE;
     }
+    
+    // 防止序列化破坏单例
+    public  Object readResolve() {
+        return INSTANCE;
+    }
 }
 ```
 
