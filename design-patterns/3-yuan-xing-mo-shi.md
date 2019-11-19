@@ -37,9 +37,7 @@ public class DeepCloneSingleton implements Cloneable {
 
 ```
 public class Test {
-
     public static void main(String[] args) throws Exception {
-
         // 1 使用反射获取 实例， 在构造方法添加判断
         Class clazz = DeepCloneSingleton.class;
         Constructor c = clazz.getDeclaredConstructor(null);
