@@ -22,7 +22,7 @@ public class DeepCloneSingleton implements Cloneable {
     }
 
     private DeepCloneSingleton() {
-        if (INSTANCE != null) {
+        if (INSTANCE != null) { // 添加判断后, 反射就不能创建对象
             throw new RuntimeException("不能创建多个实例");
         }
     }
