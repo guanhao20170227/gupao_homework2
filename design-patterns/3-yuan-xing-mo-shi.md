@@ -8,7 +8,7 @@
 
 由于现在没有业务代码, 所以我就贴上 深度克隆和单例的代码吧.
 
-\[1\] 单例类:
+\[1\] 单例类: 继承 Closeable, 重写 clone\(\) 方法, 返回单实例;
 
 ```
 public class DeepCloneSingleton implements Cloneable {
