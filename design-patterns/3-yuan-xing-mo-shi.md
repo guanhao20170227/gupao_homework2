@@ -33,5 +33,9 @@ public class DeepCloneSingleton implements Cloneable {
 }
 ```
 
+\[2\] 测试类:
+
+    1
+
 --
 
