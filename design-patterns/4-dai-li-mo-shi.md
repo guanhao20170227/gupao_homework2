@@ -10,5 +10,45 @@
 
 github： [https://github.com/guanhao20170227/gupao\_test\_code/tree/master/java\_design/src/main/java/com/haohao/e\_proxy/dynamicproxy/gpself](https://github.com/guanhao20170227/gupao_test_code/tree/master/java_design/src/main/java/com/haohao/e_proxy/dynamicproxy/gpself)
 
-    1
+```
+--- 生成的class 文件
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   $Proxy0.java
+
+package com.haohao.e_proxy.dynamicproxy.gpself;
+
+
+// Referenced classes of package com.haohao.e_proxy.dynamicproxy.gpself:
+//            Person, GPInvocationHandler
+
+public class $Proxy0
+    implements Person
+{
+
+    public $Proxy0(GPInvocationHandler gpinvocationhandler)
+    {
+        handler = gpinvocationhandler;
+    }
+
+    public void findLove()
+    {
+        try
+        {
+            java.lang.reflect.Method method = com/haohao/e_proxy/dynamicproxy/gpself/Person
+                .getMethod("findLove", new Class[0]);
+            handler.invoke(this, method, new Object[0]);
+        }
+        catch(Throwable throwable)
+        {
+            throwable.printStackTrace();
+        }
+    }
+
+    public GPInvocationHandler handler;
+}
+```
+
+
 
