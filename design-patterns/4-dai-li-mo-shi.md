@@ -10,9 +10,7 @@
 
 github： [https://github.com/guanhao20170227/gupao\_test\_code/tree/master/java\_design/src/main/java/com/haohao/e\_proxy/dynamicproxy/gpself](https://github.com/guanhao20170227/gupao_test_code/tree/master/java_design/src/main/java/com/haohao/e_proxy/dynamicproxy/gpself)
 
-```
 
-```
 
 ## 2 思考：为什么JDK动态代理中要求目标类实现的接口数量不能超过65535个？
 
