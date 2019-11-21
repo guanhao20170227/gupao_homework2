@@ -52,7 +52,9 @@ public class $Proxy0
 
 2 思考：为什么JDK动态代理中要求目标类实现的接口数量不能超过65535个？
 
+     1
 
 
 
+c参考博客:  [https://blog.csdn.net/weixin\_44402359/article/details/95447277](https://blog.csdn.net/weixin_44402359/article/details/95447277)
 
