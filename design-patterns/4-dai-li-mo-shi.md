@@ -26,7 +26,7 @@ c参考博客:  [https://blog.csdn.net/weixin\_44402359/article/details/95447277
 
 ## 3 结合自身的业务场景用代理模式进行重构。
 
-这里
+这里就不重构自己的业务代码了, 直接贴上自己手写 GPProxy 生成代码的 class 文件.
 
 ```
 --- 生成的class 文件
