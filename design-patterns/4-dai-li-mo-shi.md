@@ -10,5 +10,5 @@
 
 github： [https://github.com/guanhao20170227/gupao\_test\_code/tree/master/java\_design/src/main/java/com/haohao/e\_proxy/dynamicproxy/gpself](https://github.com/guanhao20170227/gupao_test_code/tree/master/java_design/src/main/java/com/haohao/e_proxy/dynamicproxy/gpself)
 
-
+    1
 
