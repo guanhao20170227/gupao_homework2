@@ -22,4 +22,5 @@
   * [2 单例模式](design-patterns/2-dan-li-mo-shi.md)
   * [3 原型模式](design-patterns/3-yuan-xing-mo-shi.md)
   * [4 代理模式](design-patterns/4-dai-li-mo-shi.md)
+  * [5 委派及策略模式](design-patterns/5-wei-pai-ji-ce-lve-mo-shi.md)
 
