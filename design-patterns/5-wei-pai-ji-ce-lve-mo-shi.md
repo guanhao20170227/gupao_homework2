@@ -13,6 +13,8 @@ AbstractRefreshableApplicationContext.refreshBeanFactory\(\) 方法
 
 ![](/assets/import_20191124115601.png)
 
+c参考博客: [https://segmentfault.com/q/1010000016610781](https://segmentfault.com/q/1010000016610781)
+
 ## 2 利用策略模式重构一段业务代码
 
 原始代码:
@@ -28,4 +30,6 @@ AbstractRefreshableApplicationContext.refreshBeanFactory\(\) 方法
 ```
 
 ---
+
+
 
