@@ -89,7 +89,7 @@ public class MyDispatchServlet2 extends HttpServlet {
         }
         return mapInstance.get(MyDispatchServlet2.class.getName());
     }
-    
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
@@ -99,7 +99,8 @@ public class MyDispatchServlet2 extends HttpServlet {
         }
     }
 
-    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws NoSuchMethodException, 
+            InvocationTargetException, IllegalAccessException {
 
         String uri = req.getRequestURI().replace("/web/", "");
         Object obj = mapController.get(uri);
