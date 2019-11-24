@@ -51,7 +51,7 @@ public class MyDispatcherServlet extends HttpServlet {
 }
 ```
 
-重构后的代码:
+重构后的代码: 重构后减少了 if-else 的使用, 增加了系统的扩展性
 
 ```
 public class MyDispatchServlet2 extends HttpServlet {
