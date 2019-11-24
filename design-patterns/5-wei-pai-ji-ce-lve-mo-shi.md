@@ -9,7 +9,7 @@
 
 AbstractApplicationContext.obtainFreshBeanFactory\(\) --&gt; refreshBeanFactory\(\) 方法
 
-  
+AbstractRefreshableApplicationContext.refreshBeanFactory\(\) 方法
 
 ![](/assets/import_20191124115601.png)
 
