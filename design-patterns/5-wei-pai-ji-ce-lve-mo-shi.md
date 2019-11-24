@@ -20,7 +20,35 @@ c参考博客: [https://segmentfault.com/q/1010000016610781](https://segmentfaul
 原始代码:
 
 ```
-1
+public class MyDispatcherServlet extends HttpServlet {
+
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //super.service(req, resp);
+        // doDispatch(req, resp);
+    }
+
+    /**
+     *  这一块也将在完成 策略模式的之后进行整改;
+     * @param req
+     * @param resp
+     * @throws IOException
+     */
+    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        String uri = req.getRequestURI();
+        String mid = req.getParameter("mid");
+
+        if (uri.contains("getMemberById")) {
+            new MemberController().getMemberById(mid);
+        } else if (uri.contains("getOrderById")) {
+            new OrderController().getOrderById(mid);
+        } else if (uri.contains("logout")) {
+            new SystemController().logout(null);
+        } else {
+            resp.getWriter().write("404, Not Found My.");
+        }
+    }
+}
 ```
 
 重构后的代码:
