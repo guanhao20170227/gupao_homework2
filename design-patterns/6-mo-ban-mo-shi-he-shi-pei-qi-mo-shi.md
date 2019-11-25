@@ -15,10 +15,27 @@
 
 没有老系统的业务代码, 我就直接贴上我们例子中 扩展 登录方式的部分代码了
 
+
+
 老代码:
 
 ```
-public
+public class SignInService {
+
+    // 1 注册的方法;
+    public ResultMsg register(String username, String password) {
+        ResultMsg resultMsg = new ResultMsg(200, "注册成功", new Member());
+        System.out.println(resultMsg.toString());
+        return resultMsg;
+    }
+
+    // 2 登录的方法;
+    public ResultMsg login(String username, String password) {
+        System.out.println("Login Msg: username " +  username + " , password: " + password);
+        return null;
+    }
+
+}
 ```
 
 ---
