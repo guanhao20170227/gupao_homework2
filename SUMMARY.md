@@ -23,4 +23,5 @@
   * [3 原型模式](design-patterns/3-yuan-xing-mo-shi.md)
   * [4 代理模式](design-patterns/4-dai-li-mo-shi.md)
   * [5 委派及策略模式](design-patterns/5-wei-pai-ji-ce-lve-mo-shi.md)
+  * [6 模板模式和适配器模式](design-patterns/6-mo-ban-mo-shi-he-shi-pei-qi-mo-shi.md)
 
