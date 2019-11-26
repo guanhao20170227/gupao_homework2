@@ -7,7 +7,9 @@
 
 ## 1 思考并总结装饰者模式和适配器模式的根本区别。
 
-    1
+```
+1
+```
 
 ## 2 用Guava API实现GPer社区提问通知的业务场景。
 
@@ -126,6 +128,8 @@ public class Test {
     }
 }
 ```
+
+c参考博客: [https://blog.csdn.net/u010739551/article/details/80482701](https://blog.csdn.net/u010739551/article/details/80482701)
 
 ---
 
