@@ -25,6 +25,7 @@
 ### \[1\] Spring AOP 片段:
 
 ```
+-- AOP 在 Spring 中运动的片段也不知道怎么找, 就找了这个包含 几个AOP基础概念的一个类
 public abstract class AbstractAspectJAdvice implements Advice, AspectJPrecedenceInformation {
     ... ...
     public AbstractAspectJAdvice(Method aspectJAdviceMethod, AspectJExpressionPointcut pointcut, AspectInstanceFactory aspectInstanceFactory) {
