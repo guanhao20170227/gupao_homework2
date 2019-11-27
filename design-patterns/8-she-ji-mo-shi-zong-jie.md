@@ -33,6 +33,7 @@
 ### \[3\] Spring DI 片段:
 
 ```
+(1) 构造器注入: 
 public class AspectComponentDefinition extends CompositeComponentDefinition {
     private final BeanDefinition[] beanDefinitions;
     private final BeanReference[] beanReferences;
