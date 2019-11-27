@@ -22,9 +22,15 @@
 
 ## 2 列举SpringAOP、IOC、DI应用的代码片段:
 
+\[1\] Spring AOP 片段:
+
+\[2\] Spring IOC 片段:
 
 
 
+\[3\] Spring DI 片段:
 
-----
+---
+
+
 
