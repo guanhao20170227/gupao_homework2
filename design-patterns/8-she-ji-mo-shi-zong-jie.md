@@ -24,12 +24,21 @@
 
 ### \[1\] Spring AOP 片段:
 
-    1
+```
+1
+```
 
 ### \[2\] Spring IOC 片段:
 
 ```
-1
+@Bean
+public JobDetail printTimeJobDetail(){
+    return JobBuilder.newJob(MyJob1.class)
+            .withIdentity("gupaoJob")
+            .usingJobData("gupao", "职位更好的你")
+            .storeDurably()
+            .build();
+}
 ```
 
 ### \[3\] Spring DI 片段:
