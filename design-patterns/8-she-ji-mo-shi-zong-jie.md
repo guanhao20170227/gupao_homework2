@@ -20,7 +20,11 @@
 | 装饰器模式\(Decorator\) | 包装, 同宗同源 | BufferReader, InputStream, OutputStream, HttpHeadResponseDecorator |
 | 观察者模式\(Observer\) | 任务完成通知 | ContextLoaderListener |
 
+## 2 列举SpringAOP、IOC、DI应用的代码片段:
 
 
-2 列举SpringAOP、IOC、DI应用的代码片段:
+
+
+
+----
 
