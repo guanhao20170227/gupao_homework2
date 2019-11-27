@@ -25,4 +25,5 @@
   * [5 委派及策略模式](design-patterns/5-wei-pai-ji-ce-lve-mo-shi.md)
   * [6 模板模式和适配器模式](design-patterns/6-mo-ban-mo-shi-he-shi-pei-qi-mo-shi.md)
   * [7 装饰器模式和观察者模式](design-patterns/7-zhuang-shi-qi-mo-shi-he-guan-cha-zhe-mo-shi.md)
+  * [8 设计模式总结](design-patterns/8-she-ji-mo-shi-zong-jie.md)
 
