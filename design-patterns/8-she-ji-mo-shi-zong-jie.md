@@ -25,7 +25,10 @@
 ### \[1\] Spring AOP 片段:
 
 ```
-1
+public abstract class AbstractAspectJAdvice implements Advice, AspectJPrecedenceInformation {
+    ... ...
+    
+    ... ...
 ```
 
 ### \[2\] Spring IOC 片段:
