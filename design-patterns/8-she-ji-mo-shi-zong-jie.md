@@ -31,6 +31,7 @@
 ### \[2\] Spring IOC 片段:
 
 ```
+-- 控制反转, 将自己写的 Bean 交给 Spring 管理
 @Bean
 public JobDetail printTimeJobDetail(){
     return JobBuilder.newJob(MyJob1.class)
