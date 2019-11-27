@@ -27,7 +27,13 @@
 ```
 public abstract class AbstractAspectJAdvice implements Advice, AspectJPrecedenceInformation {
     ... ...
-    
+    public AbstractAspectJAdvice(Method aspectJAdviceMethod, AspectJExpressionPointcut pointcut, AspectInstanceFactory aspectInstanceFactory) {
+        Assert.notNull(aspectJAdviceMethod, "Advice method must not be null");
+        this.aspectJAdviceMethod = aspectJAdviceMethod;
+        this.adviceInvocationArgumentCount = this.aspectJAdviceMethod.getParameterTypes().length;
+        this.pointcut = pointcut;
+        this.aspectInstanceFactory = aspectInstanceFactory;
+    }
     ... ...
 ```
 
