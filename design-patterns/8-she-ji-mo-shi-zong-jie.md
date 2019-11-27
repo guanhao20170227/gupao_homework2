@@ -32,7 +32,19 @@
 
 ### \[3\] Spring DI 片段:
 
-    1
+```
+public class AspectComponentDefinition extends CompositeComponentDefinition {
+    private final BeanDefinition[] beanDefinitions;
+    private final BeanReference[] beanReferences;
+
+    public AspectComponentDefinition(String aspectName, BeanDefinition[] beanDefinitions, 
+            BeanReference[] beanReferences, Object source) {
+        super(aspectName, source);
+        this.beanDefinitions = beanDefinitions != null ? beanDefinitions : new BeanDefinition[0];
+        this.beanReferences = beanReferences != null ? beanReferences : new BeanReference[0];
+    }
+    ...
+```
 
 ---
 
