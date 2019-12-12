@@ -12,11 +12,13 @@
 
 2 Spring DI 是依赖注入, 是通过 spring 来给具体的类注入所依赖或是关联的对象;
     常见的有 构造方法注入, Setter 方法注入, 接口注入 三种方式;
-    
-3 Spring MVC 是一种
+
+3 Spring MVC 是一种项目管理的模型, 将业务代码分成三层处理.
 ```
 
+## 2 自己手写一个Mini版本的SpringMVC。 
 
+github: 
 
 
 
