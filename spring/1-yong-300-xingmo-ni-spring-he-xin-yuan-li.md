@@ -16,9 +16,9 @@
 3 Spring MVC 是一种项目管理的模型, 将业务代码分成三层处理.
 ```
 
-## 2 自己手写一个Mini版本的SpringMVC。 
+## 2 自己手写一个Mini版本的SpringMVC。
 
-github: 
+github:
 
-
+---
 
